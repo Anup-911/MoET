@@ -26,27 +26,27 @@ public class UserLogger : MonoBehaviour
     {
         MoEngageClient.SetUniqueId(userID.text);
         statusBox.text = "User logged in as: " + userID.text;
-        TrackLogInEvent();
+        //TrackLogInEvent();
     }
 
     public void userLogout()
     {
         MoEngageClient.Logout();
         statusBox.text = "User logged out";
-        TrackLogOutEvent();
+        //TrackLogOutEvent();
     }
 
-    public void TrackLogInEvent()
-    {
-        Properties isLoggedIn = new Properties().AddBoolean("booleanAttr", true);
+    //public void TrackLogInEvent()
+    //{
+    //    Properties isLoggedInPro = new Properties().AddBoolean("booleanAttr", true);
 
-        MoEngageClient.TrackEvent("isWorking", isLoggedIn);
-    }
+    //    MoEngageClient.TrackEvent("isLoggedIn", isLoggedInPro);
+    //}
 
-    public void TrackLogOutEvent()
-    {
-        Properties isLoggedOut = new Properties().AddBoolean("booleanAttr", true);
+    //public void TrackLogOutEvent()
+    //{
+    //    Properties isLoggedOutPro = new Properties().AddBoolean("booleanAttr", true);
 
-        MoEngageClient.TrackEvent("isWorking", isLoggedOut);
-    }
+    //    MoEngageClient.TrackEvent("isLoggedOut", isLoggedOutPro);
+    //}
 }

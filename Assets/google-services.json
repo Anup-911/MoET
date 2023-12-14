@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422716523458",
+    "project_id": "moengage7-c9b6c",
+    "storage_bucket": "moengage7-c9b6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422716523458:android:a80f9acac680654f800c5b",
+        "android_client_info": {
+          "package_name": "com.caesiumlab.alphareturns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhrLUpPCj4MJfOtKR8WPUh3IHBmF2W_78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
